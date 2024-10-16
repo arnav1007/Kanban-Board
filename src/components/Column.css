@@ -1,0 +1,90 @@
+
+.column {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .column h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #333;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  
+  
+  .ticket-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  
+  .ticket {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .ticket:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .ticket h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  
+  .ticket p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  
+  .ticket p.priority {
+    font-weight: bold;
+  }
+  
+  .ticket p.priority-4 {
+    color: #e74c3c; 
+  }
+  
+  .ticket p.priority-3 {
+    color: #f39c12;
+  } 
+  
+  .ticket p.priority-2 {
+    color: #f1c40f; 
+  }
+  
+  .ticket p.priority-1 {
+    color: #3498db; 
+  }
+  
+  .ticket p.priority-0 {
+    color: #95a5a6; 
+  }
+  
+  
+  @media (max-width: 768px) {
+    .column {
+      width: 100%;
+      margin: 8px 0;
+    }
+  }
+  
