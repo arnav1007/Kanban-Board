@@ -23,7 +23,7 @@ const Header = ({ grouping, setGrouping, sortOption, setSortOption }) => {
       <h2>Kanban Board</h2>
       <div className="display-button-wrapper">
         <button className="display-button" onClick={toggleDropdown}>
-          <img src={`${process.env.PUBLIC_URL}/assets/Display.svg`} alt="Display Icon" className="display-icon" />
+          <img src="assets/Display.svg" alt="Display Icon" className="display-icon" />
           Display
         </button>
 
